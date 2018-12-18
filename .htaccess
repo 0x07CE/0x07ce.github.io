@@ -1,0 +1,9 @@
+//Change default directory page
+DirectoryIndex index.html
+
+//Prevent viewing of .htaccess file
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+ 
